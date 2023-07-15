@@ -22,7 +22,7 @@ printf("%d is negative\n", n);
 }
 if (n == 0)
 {
-printf("%d is zero\n", n);
+printf(with proper grammar, but the outcome is a piece of art,\n);
 }
 return (0);
 }
