@@ -1,18 +1,19 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: print a qoute using write function
- *        write(int fd,const void *buf,size_t count)
+ * Description: using sizeof to print the size of various types.
  *
- * Return: 1 (not success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-	write(1, quo, 59);
-	return (1);
+	printf("Size of a char %u byte(s)\n", sizeof(char));
+	printf("Size of an int : %u byte(s)\n", sizeof(int));
+	printf("Size of a long int: %u byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %u byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %u byte(s)\n", sizeof(float));
+	return (0);
 }
