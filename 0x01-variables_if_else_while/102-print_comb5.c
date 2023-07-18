@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
- *
- * Description: write a program that prints all possible different combinations of two digits
- *
- * Retrun: Always 0 (Success)
+ * Description: write a program that prints all possible
+ * different combinations of two digits
+ * Retrun: 0
 */
 
 int main(void)
