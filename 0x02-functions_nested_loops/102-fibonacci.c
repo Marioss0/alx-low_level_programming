@@ -28,5 +28,5 @@ int main(void)
 			printf(", ");
 	}
 
-	retun(0);
+	return(0);
 }
