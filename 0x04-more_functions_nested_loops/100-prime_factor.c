@@ -33,3 +33,17 @@ void largest_prime_factor(long int num)
 	}
 	printf("%d\n", largest_factor);
 }
+
+/**
+ * main - Entry point
+ *
+ * Description: A Fizz Buzz Program
+ *
+ * Return: fizz Buzz
+*/
+
+int main(void)
+{
+	largest_prime_factor(612852475143);
+	return (0);
+}
