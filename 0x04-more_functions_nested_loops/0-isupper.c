@@ -7,7 +7,7 @@
  * @c: This parameter of the digit
  *
  * Return: (1) if isupper and (0) otherwise
- */
+*/
 
 int _isupper(int c)
 {
